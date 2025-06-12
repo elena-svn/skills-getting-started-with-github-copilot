@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mergington High School Activities</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Add to styles.css for participants section styling */
+      .participants-section {
+        margin-top: 10px;
+      }
+
+      .participants-list {
+        margin: 6px 0 0 18px;
+        padding-left: 0;
+      }
+
+      .no-participants {
+        color: #888;
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -38,6 +54,14 @@
           <button type="submit">Sign Up</button>
         </form>
         <div id="message" class="hidden"></div>
+      </section>
+
+      <section class="participants-section">
+        <h3>Participants List</h3>
+        <div class="participants-list">
+          <!-- Participants will be listed here -->
+          <p class="no-participants">No participants yet.</p>
+        </div>
       </section>
     </main>
 
